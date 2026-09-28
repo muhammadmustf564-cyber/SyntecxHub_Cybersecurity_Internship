@@ -98,7 +98,7 @@ This task provided practical experience with Python networking, authenticated en
 
 ---
 
-**Task:** SyntexHub Cybersecurity Internship — Task 2
+**Task:** SyntecxHub Cybersecurity Internship — Task 2
 **Project:** Encrypted Chat App
 **Technology:** Python
 **Encryption:** AES-256-GCM
