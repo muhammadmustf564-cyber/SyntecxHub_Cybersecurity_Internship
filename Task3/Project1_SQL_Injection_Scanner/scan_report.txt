@@ -1,0 +1,28 @@
+SQL Injection Scanner Report
+===================================
+Target: http://127.0.0.1:8000/test.php?id=1
+
+Possible SQL Injection Detected
+Parameter: id
+Payload: '
+Status Code: 200
+Response Length: 184
+-----------------------------------
+Possible SQL Injection Detected
+Parameter: id
+Payload: ' OR '1'='1
+Status Code: 200
+Response Length: 184
+-----------------------------------
+Possible SQL Injection Detected
+Parameter: id
+Payload: ' OR 1=1-- 
+Status Code: 200
+Response Length: 184
+-----------------------------------
+Possible SQL Injection Detected
+Parameter: id
+Payload: ' AND 1=2-- 
+Status Code: 200
+Response Length: 184
+-----------------------------------
